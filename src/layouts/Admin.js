@@ -118,7 +118,7 @@ export default function Dashboard(props) {
       <MainPanel
         ref={mainPanel}
         w={{
-          base: "100%"
+          base: "100%",
         }}>
         {getRoute() ? (
           <PanelContent>
